@@ -75,45 +75,78 @@ Displays real-time system resource usage, including CPU and memory usage.
 Displays virtual memory statistics, including CPU, memory, and I/O usage.
 
 Displays the virtual memory statistics for the system in a standard format.
+
     vmstat
+
 Displays active and inactive memory, swap space, paging space, and I/O statistics for all devices.
+
     vmstat -a
 
 Displays disk I/O statistics for all devices.
+
     vmstat -d
+
 Displays the number of forks since boot time.
+    
     vmstat -f
+
 Displays detailed virtual memory statistics for the system.
+
     vmstat -m
+
 Disables the display of the header information in the output.
+
     vmstat -n
+    
 Displays virtual memory statistics for the system in a more detailed format.
+
     vmstat -s
+    
 Enables or disables the display of timestamps for each row of output.
+
     vmstat -t
+    
 Displays statistics on memory usage by zone.
+
     vmstat -z
+    
 These options can be used to display different types of virtual memory statistics, and to control the format and level of detail of the output. They can help users to identify potential performance issues related to CPU, memory, or I/O usage, and to optimize system configuration for better performance.
 
 # > dmesg
  Displays kernel ring buffer messages, including system events, errors, and warnings.
 
 Displays the entire kernel ring buffer, including all messages from boot time until the present.
+
     dmesg
+
 Clears the kernel ring buffer after displaying its contents.
+
     dmesg -c
+    
 Enables or disables the display of timestamp information in the output.
+
     dmesg -D
+    
 Enables or disables the display of kernel message levels (debug, info, warning, error).
+
     dmesg -d
+    
 Enables or disables the display of human-readable error messages.
+
     dmesg -E
+    
 Enables or disables the display of human-readable messages for each log level.
+
     dmesg -H
+    
 level: Sets the minimum message level to be displayed, where level can be debug, info, notice, warning, err, crit, alert, or emerg.
+
     dmesg -n
+    
 Enables or disables the display of human-readable timestamps.
+
     dmesg -T
+    
 Enables or disables the continuous printing of new kernel messages as they arrive.
     dmesg -w
 
@@ -122,13 +155,21 @@ Enables or disables the continuous printing of new kernel messages as they arriv
 The uptime command is used to display the current system uptime, as well as the system load average over a certain period of time. 
 
 Displays the current system time, the system uptime, and the load average over the last 1, 5, and 15 minutes.
+
     uptime
+    
 Displays the system uptime in a more human-readable format.
+
     uptime -p
+    
 Displays the date and time when the system was last started.
+
     uptime -s
+    
 Displays the version information for the uptime command.
+
     uptime -V
+    
 These options can be used to display the system uptime and load average in different formats, as well as to retrieve additional information about system performance and behavior. They can help users to monitor system performance, diagnose performance issues, and plan maintenance and upgrades.
 
 
